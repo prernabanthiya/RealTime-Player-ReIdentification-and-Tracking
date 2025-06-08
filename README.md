@@ -1,5 +1,6 @@
-# RealTime-Player-ReIdentification-and-Tracking
+# RealTime-Player-ReIdentification-and-Tracking 🏃‍♀️
 ![Player Tracking output](https://github.com/prernabanthiya/RealTime-Player-ReIdentification-and-Tracking/blob/main/Screenshot%202025-06-08%20163821.png)
+
 This project performs player detection and real-time re-identification in a single video feed using YOLOv11 for object detection and DeepSORT for tracking. It assigns consistent IDs to players even if they leave and re-enter the frame, simulating a real-time tracking scenario in sports footage.
 
 ---
@@ -29,22 +30,22 @@ Make sure the following libraries are installed:
 
 - torchvision
 
--ultralytics
+- ultralytics
 
--deep_sort_realtime
+- deep_sort_realtime
 
 You can install them manually using pip, or generate a requirements.txt and install all at once.
 
 ## ▶️ How to Run the Code
-- Place your input video ([like 15sec_input_720p.mp4](_)) and the YOLOv11 model file (best.pt) in the project directory
+- Place your input video ([like 15sec_input_720p.mp4](https://github.com/prernabanthiya/RealTime-Player-ReIdentification-and-Tracking/blob/main/15sec_input_720p.mp4_)) and the YOLOv11 model file (best.pt) in the project directory
 
 - Run the script playerReID-Tracking.py using your IDE (e.g., PyCharm) or from terminal
 
-Outputs will include:
+# Outputs will include:
 
-A new tracked video file (e.g., output_tracked_*.mp4)
+- A new tracked video file (e.g., output_tracked_*.mp4)
 
-A text file player_log.txt recording player appearances
+- A text file player_log.txt recording player appearances
 
 ### Requirements
 
@@ -70,7 +71,7 @@ A text file player_log.txt recording player appearances
 - Real-time deployment optimization for live broadcast scenarios.
 
 
-# Contact: 
+#📩 Contact: 
 Created by Prerna — for the Lial.ai internship task.
 [LinkedIn- prerna-banthiya](https://www.linkedin.com/in/prerna-banthiya/ )
 
