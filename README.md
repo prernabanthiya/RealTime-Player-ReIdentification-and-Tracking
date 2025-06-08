@@ -1,5 +1,5 @@
 # RealTime-Player-ReIdentification-and-Tracking
-
+![Player Tracking output](https://github.com/prernabanthiya/RealTime-Player-ReIdentification-and-Tracking/blob/main/Screenshot%202025-06-08%20163821.png)
 This project performs player detection and real-time re-identification in a single video feed using YOLOv11 for object detection and DeepSORT for tracking. It assigns consistent IDs to players even if they leave and re-enter the frame, simulating a real-time tracking scenario in sports footage.
 
 ---
