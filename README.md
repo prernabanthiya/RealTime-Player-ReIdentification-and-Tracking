@@ -13,7 +13,38 @@ This project performs player detection and real-time re-identification in a sing
 - Generates a player appearance log recording frames where each player appears.
 
 ---
+## ⚙️ Setup & Installation
+1. Clone the Repository
+Clone this GitHub repo to your local machine.
 
+2. (Optional) Create Virtual Environment
+Use a virtual environment like .venv for clean dependency management.
+
+3. Install Dependencies
+Make sure the following libraries are installed:
+
+- opencv-python
+
+- torch
+
+- torchvision
+
+-ultralytics
+
+-deep_sort_realtime
+
+You can install them manually using pip, or generate a requirements.txt and install all at once.
+
+## ▶️ How to Run the Code
+- Place your input video ([like 15sec_input_720p.mp4](_)) and the YOLOv11 model file (best.pt) in the project directory
+
+- Run the script playerReID-Tracking.py using your IDE (e.g., PyCharm) or from terminal
+
+Outputs will include:
+
+A new tracked video file (e.g., output_tracked_*.mp4)
+
+A text file player_log.txt recording player appearances
 
 ### Requirements
 
