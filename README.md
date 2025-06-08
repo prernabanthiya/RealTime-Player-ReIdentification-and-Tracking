@@ -1,4 +1,4 @@
-# RealTime-Player-ReIdentification-and-Tracking 🏃‍♀️
+# 🏃‍♀️ RealTime-Player-ReIdentification-and-Tracking
 ![Player Tracking output](https://github.com/prernabanthiya/RealTime-Player-ReIdentification-and-Tracking/blob/main/Screenshot%202025-06-08%20163821.png)
 
 This project performs player detection and real-time re-identification in a single video feed using YOLOv11 for object detection and DeepSORT for tracking. It assigns consistent IDs to players even if they leave and re-enter the frame, simulating a real-time tracking scenario in sports footage.
@@ -14,7 +14,7 @@ This project performs player detection and real-time re-identification in a sing
 - Generates a player appearance log recording frames where each player appears.
 
 ---
-## ⚙️ Setup & Installation
+## Setup & Installation
 1. Clone the Repository
 Clone this GitHub repo to your local machine.
 
@@ -36,7 +36,7 @@ Make sure the following libraries are installed:
 
 You can install them manually using pip, or generate a requirements.txt and install all at once.
 
-## ▶️ How to Run the Code
+##  How to Run the Code
 - Place your input video ([like 15sec_input_720p.mp4](https://github.com/prernabanthiya/RealTime-Player-ReIdentification-and-Tracking/blob/main/15sec_input_720p.mp4_)) and the YOLOv11 model file (best.pt) in the project directory
 
 - Run the script playerReID-Tracking.py using your IDE (e.g., PyCharm) or from terminal
@@ -71,7 +71,7 @@ You can install them manually using pip, or generate a requirements.txt and inst
 - Real-time deployment optimization for live broadcast scenarios.
 
 
-#📩 Contact: 
-Created by Prerna — for the Lial.ai internship task.
+# Contact: 
+Created by Prerna — for the Liat.ai internship task.
 [LinkedIn- prerna-banthiya](https://www.linkedin.com/in/prerna-banthiya/ )
 
